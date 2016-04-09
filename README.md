@@ -126,7 +126,7 @@ module.exports = {
     postcss: function (webpack) {
         return [
             postcssImport({
-                addDependencyTo: webpack
+                addDependencyTo: this
             })
         ];
     }
